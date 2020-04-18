@@ -2,6 +2,7 @@
 
 {% block content %}
 	<div class="page-header">
+		<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
 		<h1><a href="">Blogs</a></h1>
 	</div>
 	{% for post in posts %}
