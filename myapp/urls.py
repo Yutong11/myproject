@@ -1,5 +1,4 @@
-    path('post/new/', views.post_new, name='post_new')
-    
+
 from django.urls import path
 from . import views
 
